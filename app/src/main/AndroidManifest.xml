@@ -13,6 +13,10 @@
         android:theme="@style/Theme.WattpadClone">
         <activity android:name=".Account"></activity>
         <activity android:name=".Search" />
+        <activity android:name=".Library" />
+        <activity android:name=".lv_topic"
+            android:parentActivityName=".Library">
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

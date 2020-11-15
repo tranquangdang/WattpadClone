@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
-                    case R.id.search_bottom_navigation:
-                        startActivity(new Intent(getApplicationContext(), Search.class));
+                    case R.id.lib_bottom_navigation:
+                        startActivity(new Intent(getApplicationContext(), Library.class));
                         overridePendingTransition(0,0);
                         return true;
                 }
